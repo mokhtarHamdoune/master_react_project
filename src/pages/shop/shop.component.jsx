@@ -4,12 +4,12 @@ import CollectionPreview from "../../components/collection-preview/collection-pr
 class ShopPage extends React.Component{
     constructor(props){
         super(props);
-        this.state=SHOP_DATA;
+        this.state={SHOP_DATA};
     }
 
     render(){
         
-        const collections = this.state;
+        const collections = this.state.SHOP_DATA;
         return(
             <div>
                 {
