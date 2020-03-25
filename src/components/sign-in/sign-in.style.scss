@@ -1,6 +1,10 @@
 .sign-in{
-    width: 30vw;
+    width: 380px;
     .title{
         margin: 30px 0px;
+    }
+    .costum-button-container{
+        display:flex;
+        justify-content: space-between;
     }
 }
