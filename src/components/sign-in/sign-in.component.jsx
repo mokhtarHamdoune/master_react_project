@@ -1,6 +1,6 @@
 import React from "react";
 import FormInput from '../form-input/form-input.component';
-import CostumButton from '../costum-buttom/costum-button.component';
+import CostumButton from '../costum-button/costum-button.component';
 import {singInWithGoogle} from '../../firebase/firebase.utils';
 import './sign-in.style.scss';
 class SignIn extends React.Component{
